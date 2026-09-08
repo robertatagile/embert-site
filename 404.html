@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="af">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bladsy nie gevind | Embert Boerdery</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#2f3a2c">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .error-page {
+      position: relative;
+      overflow: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(180deg, #f6f3ec 0%, #f3ead6 45%, #ecdfbf 100%);
+    }
+    .error-inner {
+      position: relative;
+      z-index: 2;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 36rem;
+      padding: clamp(3rem, 8vh, 6rem) 0 clamp(16rem, 40vh, 24rem);
+    }
+    .error-inner .error-code {
+      margin: 0 0 0.5rem;
+      font-family: var(--font-serif);
+      font-size: clamp(4rem, 12vw, 7rem);
+      line-height: 1;
+      color: var(--sand);
+    }
+    .error-inner h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+    .error-inner p {
+      margin-bottom: 2rem;
+      font-size: 1.15rem;
+      color: var(--moss);
+    }
+    .error-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main class="error-page">
+    <div class="container error-inner">
+      <a class="brand" href="/" aria-label="Embert Boerdery – tuisblad" style="margin-bottom:2.5rem">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <defs>
+            <clipPath id="brand-clip"><circle cx="20" cy="20" r="17.5"/></clipPath>
+          </defs>
+          <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <g clip-path="url(#brand-clip)">
+            <circle cx="26.5" cy="14" r="3.6" fill="#a8562c"/>
+            <path d="M0 27 C7 21 13 22 20 25.5 C26 21 33 21.5 40 26.5 L40 40 L0 40 Z" fill="#6b7563"/>
+            <path d="M0 31 C9 27 16 30 22 29 C29 27 35 29 40 31.5 L40 40 L0 40 Z" fill="currentColor"/>
+          </g>
+        </svg>
+        <span class="brand-name">Embert Boerdery</span>
+      </a>
+      <p class="error-code" aria-hidden="true">404</p>
+      <h1>Bladsy nie gevind</h1>
+      <p>Dit lyk of hierdie bladsy deur die draad geglip het. Die adres bestaan nie, of dit is intussen verskuif.</p>
+      <div class="error-actions">
+        <a class="btn btn-primary" href="/">Terug na die tuisblad</a>
+        <a class="btn btn-secondary" href="mailto:info@embert.co.za">Kontak ons</a>
+      </div>
+    </div>
+
+    <svg class="hero-landscape" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+      <defs>
+        <g id="sil-sheep">
+          <ellipse cx="30" cy="47" rx="16" ry="11" transform="rotate(12 30 47)"/>
+          <ellipse cx="22" cy="40" rx="7" ry="3.5" transform="rotate(-25 22 40)"/>
+          <circle cx="62" cy="52" r="26"/>
+          <circle cx="88" cy="42" r="28"/>
+          <circle cx="112" cy="52" r="24"/>
+          <circle cx="88" cy="62" r="26"/>
+          <circle cx="74" cy="66" r="20"/>
+          <circle cx="102" cy="68" r="20"/>
+          <ellipse cx="137" cy="50" rx="5" ry="8"/>
+          <rect x="58" y="78" width="7" height="22" rx="2"/>
+          <rect x="70" y="80" width="7" height="20" rx="2"/>
+          <rect x="98" y="80" width="7" height="20" rx="2"/>
+          <rect x="110" y="78" width="7" height="22" rx="2"/>
+        </g>
+      </defs>
+
+      <!-- son -->
+      <circle cx="990" cy="175" r="72" fill="#efd9a3" opacity=".9"/>
+
+      <!-- verste heuwels -->
+      <path d="M0 280 C220 210 420 260 620 225 C820 190 1020 260 1220 215 C1320 192 1400 225 1440 220 L1440 420 L0 420 Z" fill="#c3c9b3"/>
+      <g fill="#6b7563">
+        <rect x="468" y="214" width="4" height="26"/><ellipse cx="470" cy="212" rx="20" ry="7"/>
+        <rect x="1247" y="190" width="4" height="22"/><ellipse cx="1249" cy="188" rx="16" ry="6"/>
+      </g>
+
+      <!-- middelste heuwels -->
+      <path d="M0 315 C240 265 470 335 720 292 C920 258 1120 322 1440 282 L1440 420 L0 420 Z" fill="#8f9c81"/>
+
+      <!-- naaste heuwels -->
+      <path d="M0 355 C300 322 600 385 900 345 C1100 318 1300 365 1440 350 L1440 420 L0 420 Z" fill="#4a5a44"/>
+      <!-- een skaap wat weggeglip het -->
+      <use href="#sil-sheep" fill="#f6f3ec" transform="translate(856 326) scale(.28)"/>
+    </svg>
+  </main>
+</body>
+</html>

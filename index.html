@@ -1,49 +1,378 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<html lang="af">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Embert Boerdery</title>
-  <style>
-  * { box-sizing: border-box; }
-body {
-  margin: 0;
-min-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-background: #f6f3ec;
-color: #2f3a2c;
-font-family: Georgia, "Times New Roman", serif;
-text-align: center;
-padding: 24px;
-}
-h1 {
-  margin: 0 0 12px;
-font-size: clamp(2rem, 7vw, 3.5rem);
-font-weight: 400;
-letter-spacing: 0.02em;
-}
-p {
-  margin: 0;
-font-size: clamp(1rem, 3vw, 1.25rem);
-color: #6b7563;
-font-style: italic;
-}
-hr {
-  width: 60px;
-border: 0;
-border-top: 1px solid #c7c0ae;
-margin: 20px auto;
-}
-</style>
-  </head>
-  <body>
-  <main>
-  <h1>Embert Boerdery</h1>
-  <hr>
-  <p>Website brewing</p>
+  <title>Embert Boerdery | Bees- en skaapboerdery</title>
+  <meta name="description" content="Embert Boerdery is ’n gemengde veeboerdery wat met beeste en skape boer – met geduld, respek vir die veld en ’n oog op die toekoms. Kontak ons by info@embert.co.za.">
+  <meta name="theme-color" content="#2f3a2c">
+  <link rel="canonical" href="https://embert.co.za/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Embert Boerdery">
+  <meta property="og:locale" content="af_ZA">
+  <meta property="og:title" content="Embert Boerdery | Bees- en skaapboerdery">
+  <meta property="og:description" content="Ons boer met beeste en skape – met geduld, respek vir die veld en ’n oog op die toekoms.">
+  <meta property="og:url" content="https://embert.co.za/">
+  <meta property="og:image" content="https://embert.co.za/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Embert Boerdery – bees- en skaapboerdery">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Embert Boerdery | Bees- en skaapboerdery">
+  <meta name="twitter:description" content="Ons boer met beeste en skape – met geduld, respek vir die veld en ’n oog op die toekoms.">
+  <meta name="twitter:image" content="https://embert.co.za/assets/img/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Embert Boerdery",
+    "url": "https://embert.co.za/",
+    "email": "info@embert.co.za",
+    "description": "Embert Boerdery is ’n gemengde veeboerdery wat met beeste en skape boer.",
+    "image": "https://embert.co.za/assets/img/og-image.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@embert.co.za",
+      "contactType": "customer service",
+      "availableLanguage": ["af", "en"]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#inhoud">Spring na inhoud</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#tuis" aria-label="Embert Boerdery – tuisblad">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <defs>
+            <clipPath id="brand-clip"><circle cx="20" cy="20" r="17.5"/></clipPath>
+          </defs>
+          <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <g clip-path="url(#brand-clip)">
+            <circle cx="26.5" cy="14" r="3.6" fill="#a8562c"/>
+            <path d="M0 27 C7 21 13 22 20 25.5 C26 21 33 21.5 40 26.5 L40 40 L0 40 Z" fill="#6b7563"/>
+            <path d="M0 31 C9 27 16 30 22 29 C29 27 35 29 40 31.5 L40 40 L0 40 Z" fill="currentColor"/>
+          </g>
+        </svg>
+        <span class="brand-name">Embert Boerdery<small>Bees- en skaapboerdery</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Maak kieslys oop">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Hoofkieslys">
+        <ul>
+          <li><a href="#oor-ons">Oor ons</a></li>
+          <li><a href="#boerdery">Ons boerdery</a></li>
+          <li><a href="#benadering">Ons benadering</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhoud">
+
+    <!-- ===================== TUIS / HERO ===================== -->
+    <section class="hero" id="tuis">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Bees- en skaapboerdery</p>
+          <h1>Embert Boerdery</h1>
+          <p class="lead">Ons boer met beeste en skape – met geduld, respek vir die veld en ’n oog op die toekoms.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#kontak">Kontak ons</a>
+            <a class="btn btn-secondary" href="#oor-ons">Meer oor ons</a>
+          </div>
+        </div>
+      </div>
+
+      <svg class="hero-landscape" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+        <defs>
+          <g id="sil-sheep">
+            <ellipse cx="30" cy="47" rx="16" ry="11" transform="rotate(12 30 47)"/>
+            <ellipse cx="22" cy="40" rx="7" ry="3.5" transform="rotate(-25 22 40)"/>
+            <circle cx="62" cy="52" r="26"/>
+            <circle cx="88" cy="42" r="28"/>
+            <circle cx="112" cy="52" r="24"/>
+            <circle cx="88" cy="62" r="26"/>
+            <circle cx="74" cy="66" r="20"/>
+            <circle cx="102" cy="68" r="20"/>
+            <ellipse cx="137" cy="50" rx="5" ry="8"/>
+            <rect x="58" y="78" width="7" height="22" rx="2"/>
+            <rect x="70" y="80" width="7" height="20" rx="2"/>
+            <rect x="98" y="80" width="7" height="20" rx="2"/>
+            <rect x="110" y="78" width="7" height="22" rx="2"/>
+          </g>
+          <g id="sil-cow">
+            <rect x="52" y="30" width="110" height="50" rx="20"/>
+            <ellipse cx="80" cy="32" rx="22" ry="9"/>
+            <path d="M70 32 L40 36 L38 66 L70 78 Z"/>
+            <rect x="10" y="34" width="36" height="36" rx="13"/>
+            <rect x="6" y="50" width="26" height="20" rx="9"/>
+            <path d="M40 62 C44 78 56 84 70 80 L70 70 Z"/>
+            <ellipse cx="44" cy="35" rx="9" ry="4" transform="rotate(-30 44 35)"/>
+            <path d="M30 34 C28 27 24 23 18 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <rect x="58" y="74" width="10" height="42" rx="3"/>
+            <rect x="74" y="76" width="10" height="40" rx="3"/>
+            <rect x="130" y="76" width="10" height="40" rx="3"/>
+            <rect x="146" y="74" width="10" height="42" rx="3"/>
+            <path d="M158 36 C172 46 174 70 170 92" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+            <ellipse cx="170" cy="95" rx="5" ry="7"/>
+          </g>
+        </defs>
+
+        <!-- son -->
+        <circle cx="990" cy="175" r="72" fill="#efd9a3" opacity=".9"/>
+
+        <!-- verste heuwels -->
+        <path d="M0 280 C220 210 420 260 620 225 C820 190 1020 260 1220 215 C1320 192 1400 225 1440 220 L1440 420 L0 420 Z" fill="#c3c9b3"/>
+        <g fill="#6b7563">
+          <rect x="468" y="214" width="4" height="26"/><ellipse cx="470" cy="212" rx="20" ry="7"/>
+          <rect x="1247" y="190" width="4" height="22"/><ellipse cx="1249" cy="188" rx="16" ry="6"/>
+        </g>
+
+        <!-- middelste heuwels -->
+        <path d="M0 315 C240 265 470 335 720 292 C920 258 1120 322 1440 282 L1440 420 L0 420 Z" fill="#8f9c81"/>
+        <use href="#sil-cow" fill="#2f3a2c" color="#2f3a2c" transform="translate(605 257) scale(.42)"/>
+
+        <!-- naaste heuwels -->
+        <path d="M0 355 C300 322 600 385 900 345 C1100 318 1300 365 1440 350 L1440 420 L0 420 Z" fill="#4a5a44"/>
+        <use href="#sil-sheep" fill="#f6f3ec" transform="translate(800 329) scale(.3)"/>
+        <use href="#sil-sheep" fill="#f6f3ec" transform="translate(856 326) scale(.28)"/>
+        <use href="#sil-sheep" fill="#f6f3ec" transform="translate(912 318) scale(.3)"/>
+      </svg>
+    </section>
+
+    <!-- ===================== OOR ONS ===================== -->
+    <section class="section" id="oor-ons">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="eyebrow">Oor ons</p>
+          <h2>Geanker in die veld, gebou op sorg</h2>
+          <p>Embert Boerdery is ’n gemengde veeboerdery met beeste en skape as die kern van ons bedryf. Ons glo dat goeie boerdery by gesonde veld begin en by diere eindig wat met sorg en kennis hanteer word.</p>
+          <p>Elke besluit op die plaas – van weidingsbestuur tot teelkeuses – word met die langtermyn in gedagte geneem. Ons streef daarna om vee van hoë kwaliteit te produseer en tegelyk die grond beter agter te laat as wat ons dit gekry het.</p>
+        </div>
+        <aside class="facts reveal" aria-labelledby="facts-heading">
+          <h3 id="facts-heading">In kort</h3>
+          <dl>
+            <dt>Bedryf</dt>
+            <dd>Gemengde veeboerdery</dd>
+            <dt>Vertakkings</dt>
+            <dd>Beeste en skape</dd>
+            <dt>E-pos</dt>
+            <dd><a href="mailto:info@embert.co.za">info@embert.co.za</a></dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== ONS BOERDERY ===================== -->
+    <section class="section section-alt" id="boerdery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Ons boerdery</p>
+          <h2>Twee vertakkings, een filosofie</h2>
+          <p>Beeste en skape vul mekaar op die veld aan. Saam maak hulle die beste van elke seisoen en help hulle ons om die veld gebalanseerd te benut.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M22 12 C16 12 12 9 12 4"/>
+                <path d="M42 12 C48 12 52 9 52 4"/>
+                <path d="M19 18 C19 10 45 10 45 18 L43 36 C42 46 22 46 21 36 Z"/>
+                <path d="M19 22 C12 19 7 24 10 30 C13 33 17 30 19 26"/>
+                <path d="M45 22 C52 19 57 24 54 30 C51 33 47 30 45 26"/>
+                <ellipse cx="32" cy="40.5" rx="9" ry="5.5"/>
+                <circle cx="28.5" cy="40.5" r="1.3" fill="currentColor" stroke="none"/>
+                <circle cx="35.5" cy="40.5" r="1.3" fill="currentColor" stroke="none"/>
+                <circle cx="26" cy="27" r="1.7" fill="currentColor" stroke="none"/>
+                <circle cx="38" cy="27" r="1.7" fill="currentColor" stroke="none"/>
+              </svg>
+            </div>
+            <h3>Beeste</h3>
+            <p>Ons beeskudde vorm die ruggraat van die boerdery. Ons fokus op geharde, goed aangepaste diere wat op die veld presteer en jaar na jaar betroubaar produseer.</p>
+            <ul>
+              <li>Klem op vrugbaarheid, temperament en groei</li>
+              <li>Deurlopende verbetering van die kudde se genetika</li>
+              <li>Kwaliteit vee vir die mark</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M12 28 C6 26 8 16 16 18 C15 9 28 6 32 13 C36 6 49 9 48 18 C56 16 58 26 52 28"/>
+                <path d="M22 24 C20 36 25 48 32 48 C39 48 44 36 42 24 C38 20 26 20 22 24 Z"/>
+                <path d="M22 27 C14 26 10 33 15 37 C18 38 21 34 22 30"/>
+                <path d="M42 27 C50 26 54 33 49 37 C46 38 43 34 42 30"/>
+                <circle cx="28" cy="33" r="1.7" fill="currentColor" stroke="none"/>
+                <circle cx="36" cy="33" r="1.7" fill="currentColor" stroke="none"/>
+                <path d="M30 41 L34 41 L32 44 Z" fill="currentColor"/>
+                <path d="M32 44 V47"/>
+              </svg>
+            </div>
+            <h3>Skape</h3>
+            <p>Skape pas natuurlik by ons veld in en vul die beesvertakking aan. Ons bestuur die kudde met noukeurige aandag aan kondisie, lamtyd en dieregesondheid.</p>
+            <ul>
+              <li>Noukeurige kuddebestuur deur elke seisoen</li>
+              <li>Gesonde, produktiewe ooie en sterk lammers</li>
+              <li>Gereelde monitering van kondisie en gesondheid</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ONS BENADERING ===================== -->
+    <section class="section" id="benadering">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Ons benadering</p>
+          <h2>Hoe ons boer</h2>
+          <p>Vier beginsels lê aan die hart van alles wat ons doen.</p>
+        </div>
+
+        <div class="values">
+          <article class="value reveal">
+            <svg class="value-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="M24 40 V22"/>
+              <path d="M24 30 C24 22 16 18 10 20 C12 27 18 31 24 30 Z"/>
+              <path d="M24 26 C24 18 32 14 38 16 C36 23 30 27 24 26 Z"/>
+              <path d="M8 40 H40"/>
+            </svg>
+            <h3>Gesonde veld</h3>
+            <p>Die veld is ons grootste bate. Ons bestuur weiding en veebelading met die herstel van die veld in gedagte, sodat dit vir toekomstige geslagte produktief bly.</p>
+          </article>
+
+          <article class="value reveal">
+            <svg class="value-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="M24 42 C24 42 6 31 6 18 C6 12 10.5 8 16 8 C19.5 8 22.5 10 24 13 C25.5 10 28.5 8 32 8 C37.5 8 42 12 42 18 C42 31 24 42 24 42 Z"/>
+            </svg>
+            <h3>Sorg vir ons diere</h3>
+            <p>Kalm, goed versorgde diere presteer beter. Ons hanteer ons vee met geduld en respek, en plaas dieregesondheid voorop.</p>
+          </article>
+
+          <article class="value reveal">
+            <svg class="value-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <circle cx="17" cy="16" r="5"/>
+              <circle cx="31" cy="16" r="5"/>
+              <path d="M6 38 C6 29 12 26 17 26 C20 26 22.5 27 24 28.5"/>
+              <path d="M42 38 C42 29 36 26 31 26 C28 26 25.5 27 24 28.5"/>
+              <path d="M6 38 H42"/>
+            </svg>
+            <h3>Mense en gemeenskap</h3>
+            <p>Boerdery is spanwerk. Ons waardeer die mense wat saam met ons werk en die gemeenskap waarvan ons deel is.</p>
+          </article>
+
+          <article class="value reveal">
+            <svg class="value-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="M14 34 A10 10 0 0 1 34 34"/>
+              <path d="M24 16 V10"/>
+              <path d="M12.7 22.7 L8.5 18.5"/>
+              <path d="M35.3 22.7 L39.5 18.5"/>
+              <path d="M6 34 H42"/>
+              <path d="M12 40 H36"/>
+            </svg>
+            <h3>Toekomsgerig</h3>
+            <p>Ons kombineer beproefde boerderypraktyke met nuwe kennis en tegnologie om slimmer en meer volhoubaar te boer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== KONTAK ===================== -->
+    <section class="section section-dark" id="kontak">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="eyebrow">Kontak</p>
+          <h2>Kom ons gesels</h2>
+          <p>Het jy ’n navraag oor ons vee, wil jy saam met ons besigheid doen, of wil jy net meer weet? Stuur gerus ’n e-pos – ons antwoord so gou as moontlik.</p>
+          <a class="email-cta" href="mailto:info@embert.co.za">info@embert.co.za</a>
+          <div class="contact-note">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <rect x="4" y="9" width="40" height="30" rx="4"/>
+              <path d="M4 13 L24 28 L44 13"/>
+            </svg>
+            <p>E-pos is die beste manier om ons te bereik. Ons lees elke boodskap en kom so gou as moontlik terug na jou.</p>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" action="mailto:info@embert.co.za" method="post" enctype="text/plain">
+          <h3>Stuur vir ons ’n boodskap</h3>
+          <div class="field">
+            <label for="naam">Naam</label>
+            <input id="naam" name="naam" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="epos">E-posadres</label>
+            <input id="epos" name="epos" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="boodskap">Boodskap</label>
+            <textarea id="boodskap" name="boodskap" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Stuur e-pos</button>
+          <p class="form-help">Die knoppie maak jou e-posprogram oop met jou boodskap reeds ingevul.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
   </main>
-  </body>
-  </html>
-  
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#tuis">
+            <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+              <defs>
+                <clipPath id="brand-clip-footer"><circle cx="20" cy="20" r="17.5"/></clipPath>
+              </defs>
+              <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+              <g clip-path="url(#brand-clip-footer)">
+                <circle cx="26.5" cy="14" r="3.6" fill="#a8562c"/>
+                <path d="M0 27 C7 21 13 22 20 25.5 C26 21 33 21.5 40 26.5 L40 40 L0 40 Z" fill="#6b7563"/>
+                <path d="M0 31 C9 27 16 30 22 29 C29 27 35 29 40 31.5 L40 40 L0 40 Z" fill="currentColor"/>
+              </g>
+            </svg>
+            <span class="brand-name">Embert Boerdery</span>
+          </a>
+          <p>’n Gemengde veeboerdery met beeste en skape – geanker in die veld, gebou op sorg.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Voetskakels">
+          <ul>
+            <li><a href="#oor-ons">Oor ons</a></li>
+            <li><a href="#boerdery">Ons boerdery</a></li>
+            <li><a href="#benadering">Ons benadering</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-contact">
+          <p class="footer-label">Kontak</p>
+          <a href="mailto:info@embert.co.za">info@embert.co.za</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Embert Boerdery. Alle regte voorbehou.</p>
+        <p><a href="https://embert.co.za/">embert.co.za</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
